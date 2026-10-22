@@ -1,0 +1,81 @@
+body.page-form {
+  background-color: #fff;
+}
+
+.form-heading {
+  font-family: "Inter", sans-serif;
+  font-weight: 700;
+  font-size: 2.6rem;
+  line-height: 1.2;
+  color: #000;
+  max-width: 340px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.form-subtext {
+  font-size: 1.25rem;
+  line-height: 1.3;
+  color: #000;
+  max-width: 280px;
+}
+
+.reg-form .form-label {
+  font-size: 0.95rem;
+  font-weight: 700;
+  color: #000;
+  margin-bottom: 0.15rem;
+}
+
+.reg-form .form-control,
+.reg-form .form-select {
+  background-color: #d9d9d9;
+  border: 0;
+  border-radius: 8px;
+  height: 58px;
+  box-shadow: none;
+}
+
+.reg-form .form-select {
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: #4a4a4a;
+  padding-left: 1rem;
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3e%3cpath fill='none' stroke='%23000' stroke-linecap='round' stroke-linejoin='round' stroke-width='1.6' d='m2 5 6 6 6-6'/%3e%3c/svg%3e");
+  background-size: 18px 18px;
+  background-position: right 0.9rem center;
+}
+
+.reg-form .form-control:focus,
+.reg-form .form-select:focus {
+  background-color: #d0d0d0;
+  box-shadow: 0 0 0 0.2rem rgba(61, 90, 175, 0.35);
+}
+
+.btn-form {
+  background-color: #8ed3ff;
+  color: #000;
+  font-size: 0.85rem;
+  font-weight: 700;
+  width: 110px;
+  height: 51px;
+  border: 0;
+  border-radius: 4px;
+}
+
+.btn-form:hover,
+.btn-form:focus {
+  background-color: #74c4f5;
+  color: #000;
+}
+
+@media (min-width: 992px) {
+  .form-heading {
+    font-size: 3.4rem;
+  }
+
+  .form-subtext {
+    font-size: 1.35rem;
+    max-width: 240px;
+  }
+}

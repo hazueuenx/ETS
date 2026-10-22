@@ -1,0 +1,116 @@
+body.page-list {
+  background-color: #fff;
+}
+
+.btn-tambah {
+  background-color: #8ed3ff;
+  color: #2f3b45;
+  font-size: 0.8rem;
+  font-weight: 700;
+  min-height: 49px;
+  padding: 0 1.1rem;
+  border: 0;
+  border-radius: 6px;
+}
+
+.btn-tambah i {
+  font-size: 1.3rem;
+  color: #4a5560;
+}
+
+.btn-tambah:hover,
+.btn-tambah:focus {
+  background-color: #74c4f5;
+  color: #2f3b45;
+}
+
+.search-box .form-control {
+  background-color: #d9d9d9;
+  border: 0;
+  border-radius: 6px;
+  min-height: 49px;
+  padding-left: 3rem;
+  font-size: 0.95rem;
+  font-weight: 600;
+  color: #000;
+  box-shadow: none;
+}
+
+.search-box .form-control::placeholder {
+  color: #666;
+  opacity: 1;
+}
+
+.search-box .search-icon {
+  position: absolute;
+  top: 50%;
+  left: 1rem;
+  transform: translateY(-50%);
+  font-size: 1.35rem;
+  color: #000;
+  pointer-events: none;
+}
+
+.filter-select {
+  background-color: #d9d9d9;
+  border: 0;
+  border-radius: 6px;
+  min-height: 49px;
+  padding-left: 0.75rem;
+  font-size: 0.8rem;
+  font-weight: 600;
+  color: #4a4a4a;
+  box-shadow: none;
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3e%3cpath fill='none' stroke='%23000' stroke-linecap='round' stroke-linejoin='round' stroke-width='1.6' d='m2 5 6 6 6-6'/%3e%3c/svg%3e");
+  background-size: 18px 18px;
+  background-position: right 0.75rem center;
+}
+
+.search-box .form-control:focus,
+.filter-select:focus {
+  background-color: #d0d0d0;
+  box-shadow: 0 0 0 0.2rem rgba(61, 90, 175, 0.35);
+}
+
+@media (min-width: 576px) {
+  .btn-tambah {
+    min-width: 190px;
+  }
+}
+
+@media (min-width: 768px) {
+  main {
+    padding-left: 1.5rem !important;
+    padding-right: 1.5rem !important;
+  }
+}
+
+@media (min-width: 992px) {
+  main {
+    padding-left: 1rem !important;
+    padding-right: 1rem !important;
+  }
+
+  .btn-tambah {
+    min-width: 170px;
+  }
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+  text-align: center;
+  border: 1px solid gray;
+}
+
+th,
+td {
+  padding: 8px 12px;
+  font-size: 16px;
+}
+
+thead th {
+  background-color: #4ed0e1;
+  font-weight: bold;
+  color: #000000;
+}
